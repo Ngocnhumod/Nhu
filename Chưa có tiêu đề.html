@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang web tải lên hình ảnh và video của tôi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Đây là mã màu cho màu đen */
+            color: #fff; /* Đây là mã màu cho màu trắng, để đảm bảo rằng văn bản có thể đọc được trên nền đen */
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        input[type="file"] {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 300px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100px;
+            opacity: 0.9;
+        }
+
+        input[type="submit"]:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chào mừng đến với trang web tải lên hình ảnh và video của tôi!</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*,video/*">
+        <input type="submit" value="Tải lên">
+    </form>
+</body>
+</html>
+<iframe src="https://drive.google.com/file/d/1C5CJ-zn_2XV9SEc9JM2k4zMxj8rzYfqi/preview" width="640" height="480" allow="autoplay">
+  <video controls>
+    Your browser does not support the video tag.
+  </video>
+</iframe>
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Trang web của tôi</h1>
+
+<img src="https://i.imgur.com/iInpcmL.jpeg" alt="Hình ảnh của tôi">
+
+</body>
+</html>
